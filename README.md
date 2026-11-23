@@ -1,6 +1,8 @@
-# ECG Arrhythmia Detection - Patient-wise Split
+# HeartPulse - Heart Arrhythmia Detection from ECG Signals
 
 ECG heartbeat classification using 1D-CNN. No leakage - Train and Test patients are completely different.
+
+> Built a 1D-CNN for ECG arrhythmia detection on MIT-BIH data, using patient-level splits to prevent data leakage.
 
 ## Why Patient-wise Split?
 Most projects split by heartbeat - same patient in Train and Test = Fake 99% accuracy.
